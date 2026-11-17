@@ -3,12 +3,12 @@ name = "SigmaOS-mint-event-handler"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "mint-event-handler component"
+description = "Event handler for SigmaOS inspired by Linux Mint"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
