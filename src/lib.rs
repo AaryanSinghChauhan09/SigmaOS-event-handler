@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-//! SigmaOS-mint-event-handler: mint event handler component model.
+//! SigmaOS-event-handler: mint event handler component model.
 //!
 //! Real implementation: handlers, events, validation, deterministic storage.
 //! Replaces the placeholder stub.

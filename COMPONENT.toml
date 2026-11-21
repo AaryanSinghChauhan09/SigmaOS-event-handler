@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-mint-event-handler"
+name = "SigmaOS-event-handler"
 tier = 2
 stability = "beta"
 language = "rust"

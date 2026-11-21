@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-mint-event-handler Component Wiki
+# SigmaOS-SigmaOS-event-handler Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-mint-event-handler provides Event handler for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-event-handler provides Event handler for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-mint-event-handler Abstraction
-- Fail-Fast on SigmaOS-mint-event-handler Initialization Errors
-- Deterministic SigmaOS-mint-event-handler Setup
-- Clear Abstraction Over SigmaOS-mint-event-handler APIs
-- Composition over Inheritance for SigmaOS-mint-event-handler extensions
+- SigmaOS-event-handler Abstraction
+- Fail-Fast on SigmaOS-event-handler Initialization Errors
+- Deterministic SigmaOS-event-handler Setup
+- Clear Abstraction Over SigmaOS-event-handler APIs
+- Composition over Inheritance for SigmaOS-event-handler extensions
 
 ## Architecture
-SigmaOS-SigmaOS-mint-event-handler follows a SigmaOS-mint-event-handler pattern:
-- **SigmaOS-mint-event-handler Core**: Provides SigmaOS-mint-event-handler support, SigmaOS-mint-event-handler management, and SigmaOS-mint-event-handler tracking
-- **Management**: Supports SigmaOS-mint-event-handler management, SigmaOS-mint-event-handler configuration, and SigmaOS-mint-event-handler lifecycle
-- **Tracking**: Supports SigmaOS-mint-event-handler status, SigmaOS-mint-event-handler tracking, and SigmaOS-mint-event-handler lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-mint-event-handler configurations or unsupported SigmaOS-mint-event-handler types
+SigmaOS-SigmaOS-event-handler follows a SigmaOS-event-handler pattern:
+- **SigmaOS-event-handler Core**: Provides SigmaOS-event-handler support, SigmaOS-event-handler management, and SigmaOS-event-handler tracking
+- **Management**: Supports SigmaOS-event-handler management, SigmaOS-event-handler configuration, and SigmaOS-event-handler lifecycle
+- **Tracking**: Supports SigmaOS-event-handler status, SigmaOS-event-handler tracking, and SigmaOS-event-handler lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-event-handler configurations or unsupported SigmaOS-event-handler types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-mint-event-handler by given configuration
--  - Register a SigmaOS-mint-event-handler by given name
--  - Get SigmaOS-mint-event-handler status and SigmaOS-mint-event-handler availability
--  - Track SigmaOS-mint-event-handler management and SigmaOS-mint-event-handler tracking
-- Error types for SigmaOS-mint-event-handler failure scenarios or unsupported SigmaOS-mint-event-handler types
+-  - Manage a SigmaOS-event-handler by given configuration
+-  - Register a SigmaOS-event-handler by given name
+-  - Get SigmaOS-event-handler status and SigmaOS-event-handler availability
+-  - Track SigmaOS-event-handler management and SigmaOS-event-handler tracking
+- Error types for SigmaOS-event-handler failure scenarios or unsupported SigmaOS-event-handler types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-mint-event-handler configuration
-2. **Act**: Execute the code under test (SigmaOS-mint-event-handler init, SigmaOS-mint-event-handler management)
-3. **Assert**: Verify the expected SigmaOS-mint-event-handler results
+1. **Arrange**: Set up test environment with specific SigmaOS-event-handler configuration
+2. **Act**: Execute the code under test (SigmaOS-event-handler init, SigmaOS-event-handler management)
+3. **Assert**: Verify the expected SigmaOS-event-handler results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-mint-event-handler initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-mint-event-handler failure scenarios
-- Unit tests provided for SigmaOS-mint-event-handler management and configuration
-- Integration tests for full SigmaOS-mint-event-handler system with actual SigmaOS-mint-event-handler integration
+- SigmaOS-event-handler initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-event-handler failure scenarios
+- Unit tests provided for SigmaOS-event-handler management and configuration
+- Integration tests for full SigmaOS-event-handler system with actual SigmaOS-event-handler integration
 
 ## TODO
-- Add support for additional SigmaOS-mint-event-handler types
-- Expand SigmaOS-mint-event-handler capabilities (SigmaOS-mint-event-handler features, SigmaOS-mint-event-handler configurations, SigmaOS-mint-event-handler tracking)
-- Add lifecycle features (SigmaOS-mint-event-handler tracking, SigmaOS-mint-event-handler lifecycle, SigmaOS-mint-event-handler propagation)
-- Create integration tests with actual SigmaOS-mint-event-handler systems and SigmaOS-mint-event-handler integration
-- Implement SigmaOS-mint-event-handler persistence and SigmaOS-mint-event-handler state management
+- Add support for additional SigmaOS-event-handler types
+- Expand SigmaOS-event-handler capabilities (SigmaOS-event-handler features, SigmaOS-event-handler configurations, SigmaOS-event-handler tracking)
+- Add lifecycle features (SigmaOS-event-handler tracking, SigmaOS-event-handler lifecycle, SigmaOS-event-handler propagation)
+- Create integration tests with actual SigmaOS-event-handler systems and SigmaOS-event-handler integration
+- Implement SigmaOS-event-handler persistence and SigmaOS-event-handler state management

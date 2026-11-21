@@ -1,4 +1,4 @@
-# SigmaOS-mint-event-handler
+# SigmaOS-event-handler
 
 Event handler for SigmaOS inspired by Linux Mint
 

@@ -1,10 +1,10 @@
 [package]
-name = "SigmaOS-mint-event-handler"
+name = "SigmaOS-event-handler"
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
 description = "SigmaOS mint-event-handler component"
 
 [lib]
-name = "mint_event_handler"
+name = "sigmaos_event_handler"
 path = "src/lib.rs"
