@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-event-handler Component Wiki
+# SigmaOS-event-handler Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-event-handler provides Event handler for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-event-handler provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-event-handler Abstraction
-- Fail-Fast on SigmaOS-event-handler Initialization Errors
-- Deterministic SigmaOS-event-handler Setup
-- Clear Abstraction Over SigmaOS-event-handler APIs
-- Composition over Inheritance for SigmaOS-event-handler extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-event-handler Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-event-handler Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-event-handler Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-event-handler APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-event-handler extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-event-handler follows a SigmaOS-event-handler pattern:
+SigmaOS-event-handler follows a SigmaOS-event-handler pattern:
 - **SigmaOS-event-handler Core**: Provides SigmaOS-event-handler support, SigmaOS-event-handler management, and SigmaOS-event-handler tracking
 - **Management**: Supports SigmaOS-event-handler management, SigmaOS-event-handler configuration, and SigmaOS-event-handler lifecycle
 - **Tracking**: Supports SigmaOS-event-handler status, SigmaOS-event-handler tracking, and SigmaOS-event-handler lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-event-handler follows a SigmaOS-event-handler pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-event-handler by given configuration
--  - Register a SigmaOS-event-handler by given name
--  - Get SigmaOS-event-handler status and SigmaOS-event-handler availability
--  - Track SigmaOS-event-handler management and SigmaOS-event-handler tracking
+- Manage a SigmaOS-event-handler by given configuration
+- Register a SigmaOS-event-handler by given name
+- Get SigmaOS-event-handler status and SigmaOS-event-handler availability
+- Track SigmaOS-event-handler management and SigmaOS-event-handler tracking
 - Error types for SigmaOS-event-handler failure scenarios or unsupported SigmaOS-event-handler types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-event-handler init, SigmaOS-event-handler management)
 3. **Assert**: Verify the expected SigmaOS-event-handler results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-event-handler initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-event-handler failure scenarios
 - Unit tests provided for SigmaOS-event-handler management and configuration
